@@ -1,12 +1,67 @@
-# React + Vite
+# 🗂️ Personal Task Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive task tracking app built with React, Redux Toolkit, and Material UI. Track tasks, manage time, and visualize your productivity easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add and delete tasks
+- Start/stop timer for individual tasks
+- Visualize time spent using charts
+- Light/Dark mode toggle
+- Fully responsive layout with Material UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AshokC46/Personal-Task-Dashboard.git
+cd Personal-Task-Dashboard/client
+
+
+### 2. Install dependencies 
+
+```bash
+npm install
+
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app:**
+
+   Navigate to `http://localhost:5173` (or the URL shown in your terminal) in your browser.
+
+---
+
+## Design Decisions
+
+* **React + Vite:** Used Vite for faster development and hot reloading; React for component-based UI.
+* **Redux Toolkit:** Manages global state of tasks and timer with simple, scalable reducers.
+* **Material UI:** Provides a clean, accessible, and responsive design system with built-in theming.
+* **Recharts:** Visualizes task time data with an interactive bar chart for productivity stats.
+* **Responsive Design:** Achieved with Material UI’s responsive props and components for usability on multiple screen sizes.
+* **Dark Mode:** Implemented with Material UI theme toggling for better user experience in different lighting conditions.
+* **Frontend-only:** No backend or authentication to keep scope aligned with assignment requirements.
+
+---
+
+## Known Issues & Future Improvements
+
+* No data persistence; task and timer data resets on page reload. Could add localStorage or backend integration.
+* Timer state only works per browser tab; no sync across tabs or devices.
+* Tasks cannot be edited once added; adding edit functionality would improve usability.
+* Accessibility can be enhanced with better ARIA attributes and keyboard navigation support.
+* Productivity stats could be expanded with filtering, exporting, or additional chart types.
+* More robust input validation and error handling.
+* Add automated tests for components and redux logic.
+
+
+```
