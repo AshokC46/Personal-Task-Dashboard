@@ -20,6 +20,7 @@ A responsive task tracking app built with React, Redux Toolkit, and Material UI.
 
 ```bash
 git clone https://github.com/AshokC46/Personal-Task-Dashboard.git
+
 cd Personal-Task-Dashboard/client
 
 
@@ -29,13 +30,13 @@ cd Personal-Task-Dashboard/client
 npm install
 
 
-3. **Start the development server:**
+### 3. Start the development server
 
    ```bash
    npm run dev
    ```
 
-4. **Open the app:**
+### 4. Open the app:
 
    Navigate to `http://localhost:5173` (or the URL shown in your terminal) in your browser.
 
