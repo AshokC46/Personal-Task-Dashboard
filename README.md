@@ -63,6 +63,3 @@ npm install
 * Productivity stats could be expanded with filtering, exporting, or additional chart types.
 * More robust input validation and error handling.
 * Add automated tests for components and redux logic.
-
-
-```
